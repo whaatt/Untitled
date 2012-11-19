@@ -1,0 +1,59 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#footer {
+	margin-bottom: 0px;
+}
+
+.form-search {
+	max-width: 100%;
+}
+
+.navbar-inner {
+	background: #748C73;
+	border: 0;
+	text-align: center;
+}
+
+.form-search input {
+	background: #748C73;
+	font-size: 16px;
+	height: auto;
+	border: 0;
+}
+
+.hero-unit {
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.well {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.previous {
+	background: grey;
+	color: black;
+}
+
+.left {
+	float: left;
+	margin: 0;
+}
+
+.right {
+	float: right;
+	margin: 0;
+}
+
+.center {
+	float: center;
+}
+
+h1 {
+	text-align: center;
+}
