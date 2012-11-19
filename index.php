@@ -14,7 +14,6 @@
 		<script src="js/scroll.min.js"></script>
 		<script src="js/scripts.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="css/scrollbar.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta name="Description" content="Search and study tons of tossups.">
@@ -45,10 +44,10 @@
 				<button class="btn btn-medium btn-link right" type="button" disabled="disabled" id="next">Next &rarr;</button>
 			</div>
 			<form class="form-search" id="search">
-				<input type="text" class="input-block-level" id="search-text" placeholder="">
+				<input type="text" class="input-block-level" id="search-text" placeholder="Type your query here.">
 			</form>
 			<div class="well" id="footer">
-				<span class="left">Created By Sanjay Kannan.</span><span class="right">Hacked Together In An Evening.</span>
+				<span class="left">A Project Of Skalon Dot Com.</span><span class="right">Last Hacked On November 18.</span>
 			</div>
 		</div>
 	</body>
