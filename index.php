@@ -16,6 +16,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/scrollbar.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
+		<link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
 		<div id="page-container">
