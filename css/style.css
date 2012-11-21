@@ -54,6 +54,15 @@ body {
 	float: center;
 }
 
+#answer {
+	text-align: right;
+	width: 70%;
+}
+
+.well {
+	overflow: hidden;
+}
+
 h1 {
 	text-align: center;
 }

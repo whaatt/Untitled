@@ -32,7 +32,10 @@ if (isset($_GET['query']) and strlen($_GET['query']) < 500){
 		$_SESSION['handle'] = $results;
 		$_SESSION['pointer'] = 0;
 		
-		$data = array('error' => 0, 'last' => 0, 'first' => 1, 'count' => count($results), 'position' => 0, 'question' => $results[0][0]);
+		$first = 1; //Always First
+		$last = count($results) > 1 ? 0 : 1;
+		
+		$data = array('error' => 0, 'last' => $last, 'first' => $first, 'count' => count($results), 'position' => 0, 'question' => $results[0][0]);
 		echo json_encode($data);
 	}
 	

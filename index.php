@@ -39,7 +39,7 @@
 					win at quiz bowl. Note that most search functionality is not yet implemented, and at this point you can basically
 					search by answer.
 				</div>
-				<br><br>
+				<br>
 				<button class="btn btn-medium btn-link left" type="button" disabled="disabled" id="previous">&larr; Previous</button>
 				<button class="btn btn-medium btn-link right" type="button" disabled="disabled" id="next">Next &rarr;</button>
 			</div>

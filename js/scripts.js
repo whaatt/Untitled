@@ -19,7 +19,15 @@ $(document).ready(function() {
 					$(this).text(info.question.answer).fadeIn();
 				});
 				
-				$('#next').removeAttr('disabled');
+				if (info.last != 1){
+					$('#next').removeAttr('disabled');
+					$('#previous').attr('disabled', 'disabled');
+				}
+				
+				else{
+					$('#next').attr('disabled', 'disabled');
+					$('#previous').attr('disabled', 'disabled');
+				}
 			}
 			
 			else if (info.error == 1){
