@@ -1,12 +1,12 @@
 <?php
-	header('Content-Type: text/html; charset=UTF-8');
 	$name = 'Untitled';
 	
 	if(!isset($_SESSION)){
 		session_start();
 	}
 ?>
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title><? echo $name; ?></title>
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -16,6 +16,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
 		<link rel="shortcut icon" href="favicon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="Description" content="Search and study tons of tossups.">
 	</head>
 	<body>
