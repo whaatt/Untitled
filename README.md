@@ -1,10 +1,10 @@
 Untitled
 =============
-A Quiz Bowl Search Engine.
+A Quiz Bowl Search Engine
 
-- Uses Quizbowl DB's Question Base
-- Written In A Weekend
-- Uses Twitter Bootstrap
+- Uses Quizbowl DB's question base.
+- Written in an entire weekend.
+- Uses Twitter Bootstrap.
 
 ### Credits
 - Thanks to Sharad Vikram and his reader site QuizbowlDB.com.
